@@ -7,14 +7,11 @@
 main{
   margin: 50px auto;
   width:960px;
-  padding-top: 50px;
-  padding-bottom: 30px;
+
+
 
 }
-.main2{
-  margin: 50px auto;
-  overflow: auto;
-}
+
 .clearfix::after{
   content:"";
   display:block;
@@ -65,7 +62,7 @@ main{
 @media screen and (max-width:768px){
 main{
   width:100%;
-  margin: 0px auto;
+  margin: 50px auto;
 }
 .step-img1{
   height:0;
@@ -91,5 +88,6 @@ main{
 }
 .stepbox:last-child{
   margin-right: auto;
+  margin-bottom:0px;
 }
 }
